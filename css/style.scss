@@ -1,0 +1,20 @@
+.bank{
+    margin: 120px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    .inputs{
+        margin-top: 20px;
+    }
+    .bank-left{
+        .button{
+            margin-top: 20px;
+        }
+    }
+    .bank-right{
+        .terms{
+            margin-top: 20px;
+        }
+    }
+}

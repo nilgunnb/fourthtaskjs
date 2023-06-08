@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <div class="bank">
+        <div class="bank-left">
+            <div class="inputs">
+                <p>Kredit məbləği (₼)</p>
+                <input id="first-input" type="text">
+            </div>
+            <div class="inputs">
+                <p>Kredit müddəti (ayla)</p>
+                <input id="second-input" type="text">
+            </div>
+            <div class="inputs">
+                <p>Faiz dərəcəsi (%)</p>
+                <input id="third-input" type="text">
+            </div>
+            <div class="button">
+                <button id="calculate">Hesabla</button>
+            </div>
+        </div>
+
+        <div class="bank-right">
+            <h3>Şərtlər:</h3>
+            <div class="terms">
+                <p>Aylıq ödəniş</p>
+                <p id="monthly">0 ₼</p>
+            </div>
+            <div class="terms">
+                <p>Ümumi ödəniləcək məbləğ</p>
+                <p id="overall">0 ₼</p>
+            </div>
+            <div class="terms">
+                <p>Faiz dərəcəsi</p>
+                <p id="percent">0 %</p>
+            </div>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
